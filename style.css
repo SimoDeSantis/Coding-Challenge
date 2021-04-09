@@ -1,0 +1,66 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  /* line-height:0.7; */
+  color: white;
+}
+.container{
+  padding: 2%;
+  border: 1px solid black;
+  background-color: #0a090a42;
+  width: 600px;
+  margin: auto;
+  border-radius: 20px;
+}
+#logo{
+  display: block;
+  height: 80px;
+  margin: auto;
+  margin-top: 1px;
+}
+#intestazionelogo{
+  display: block;
+  color: #00dd00;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.containernav {
+  padding: 1%;
+  background-color: #00dd00;
+  width: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+.corpo{
+  display: block;
+  margin-top: 10px;
+}
+#name-account{
+  font-size: 20px;
+}
+p , .carica{
+  padding: 1%;
+  height: 8px;
+  border-radius: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px;
+  font-size: 10px;
+}
+#carica1{
+  background-color: orange;
+  width: 180px;
+}
+#carica2{
+  background-color: #00dd00;
+  width: 400px;
+}
+#carica3{
+  background-color: red;
+  width: 80px;
+}
